@@ -1,0 +1,19 @@
+.Container{
+  height: 80vh;
+  overflow-y: auto;
+  >div{
+    height:auto;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+    border: 2px solid rgba(255, 255, 255, 0.359);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 10px 40px 0 rgba(139, 89, 189, 0.684);
+    margin: 10px;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .Container {
+    height: 70vh;
+  }
+}
